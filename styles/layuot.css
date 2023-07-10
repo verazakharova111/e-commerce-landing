@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   background: #796eff;
+  color: #ffffff;
 }
 
 .layout__footer-content {

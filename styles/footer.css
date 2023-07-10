@@ -1,4 +1,50 @@
 .footer {
-  height: 225px;
-  border: 1px solid black;
+  display: flex;
+}
+
+.footer__photo {
+  display: flex;
+  flex-basis: 65%;
+  justify-content: space-between;
+}
+.footer__information {
+  padding-left: 5%;
+  flex-basis: 35%;
+}
+.photo__yellow {
+  width: 177px;
+  height: 177px;
+  border-radius: 8px;
+  background: #ffeeb9;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.photo__pink {
+  width: 177px;
+  height: 177px;
+  border-radius: 8px;
+  background: #ffcca9;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.photo__orange {
+  width: 177px;
+  height: 177px;
+  border-radius: 8px;
+  background: #ff9d80;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.text-big {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 109.5%;
+}
+.text-black {
+  color: #494747;
+  font-size: 16px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
 }
