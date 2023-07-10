@@ -1,0 +1,12 @@
+.layout {
+  background: linear-gradient(to left, #fbfaf3 53%, #ffffff 45%);
+  min-height: 100vh;
+}
+
+.layout__content {
+  max-width: 1280px;
+  min-width: 1024px;
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}

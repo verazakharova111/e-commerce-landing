@@ -1,0 +1,26 @@
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: #796eff;
+}
+.footer__wrap {
+  width: 83%;
+  max-width: 1280px;
+  height: 225px;
+  border: 1px solid black;
+  padding-top: 22px;
+  padding-bottom: 26px;
+}
+.footer__flower--left {
+  background-image: url(../image/footer-flower.png);
+  background-repeat: repeat-y;
+  width: 8.5%;
+  max-width: 88px;
+}
+.footer__flower--right {
+  background-image: url(../image/foorer-flower1.png);
+  background-repeat: repeat-y;
+  width: 8.5%;
+  max-width: 88px;
+}
