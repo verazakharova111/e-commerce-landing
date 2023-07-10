@@ -5,8 +5,34 @@
 
 .layout__content {
   max-width: 1280px;
-  min-width: 1024px;
   width: 83%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.layout__footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: #796eff;
+}
+
+.layout__footer-content {
+  max-width: 1280px;
+  width: 83%;
+  padding-top: 22px;
+  padding-bottom: 26px;
+}
+
+.layout__footer-flower {
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  width: 8.5%;
+  max-width: 74px;
+}
+.layout__footer-flower--left {
+  background-image: url(../image/footer-flower-left.png);
+}
+.layout__footer-flower--right {
+  background-image: url(../image/footer-flower-right.png);
 }
