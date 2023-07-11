@@ -1,6 +1,12 @@
 .main {
   display: flex;
+  justify-content: start;
   padding-top: 70px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.info {
+  flex-basis: 45%;
 }
 .info__title {
   color: #181818;
@@ -65,4 +71,9 @@
   border: 1px solid #ffffff;
   border-radius: 50%;
   margin-right: -15px;
+}
+.main__photo {
+  position: absolute;
+  right: 0;
+  transform: translate(-80%);
 }
