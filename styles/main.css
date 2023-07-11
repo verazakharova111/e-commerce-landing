@@ -11,7 +11,6 @@
 .info__title {
   color: #181818;
   font-size: 65px;
-  font-family: SF UI Display;
   font-style: normal;
   font-weight: 600;
   line-height: 109.523%;
@@ -29,9 +28,7 @@
 .info__text--big {
   color: #181818;
   font-size: 45px;
-  font-family: "SF UI Display", sans-serif;
   font-style: normal;
-  font-weight: 500;
   line-height: 125%;
 }
 .info__paragraph {

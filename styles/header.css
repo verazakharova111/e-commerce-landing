@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.list__item:not(:last-of-type) {
+.header__nav > ul > li:not(:last-of-type) {
   padding-right: 45px;
 }
 .header__input {
