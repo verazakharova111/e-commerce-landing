@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 15%;
 }
 .header__nav > ul > li:not(:last-of-type) {
   padding-right: 45px;

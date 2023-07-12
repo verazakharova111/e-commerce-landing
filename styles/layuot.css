@@ -1,8 +1,7 @@
 .layout {
-  background: linear-gradient(to left, #f788f1 44%, #ffffff 44%);
+  background: linear-gradient(to left, #f788f1 40%, #ffffff 40%);
   min-height: 100vh;
 }
-
 .layout__content {
   max-width: 1280px;
   width: 83%;
@@ -36,4 +35,9 @@
 }
 .layout__footer-flower--right {
   background-image: url(../image/footer-flower-right.png);
+}
+@media (min-width: 1280px) {
+  .layout {
+    background: linear-gradient(to left, #f788f1 52%, #ffffff 48%);
+  }
 }
