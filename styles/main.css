@@ -6,7 +6,7 @@
   position: relative;
 }
 .info {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 .info__title {
   color: #181818;
@@ -71,6 +71,26 @@
 }
 .main__photo {
   position: absolute;
+  right: 44%;
+  transform: translateX(calc(100% - 60px));
+  vertical-align: bottom;
+}
+.main__figure-left {
+  position: absolute;
+  right: 44%;
+  transform: translateX(50%);
+  padding-top: 40px;
+}
+.figure-2 {
+  margin-left: -115px;
+  margin-top: 40px;
+}
+
+.main__figure-right {
+  position: absolute;
   right: 0;
-  transform: translate(-80%);
+}
+.figure-3 {
+  margin-top: 60px;
+  margin-right: -12px;
 }
