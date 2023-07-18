@@ -76,6 +76,24 @@
     opacity: 1;
   }
 }
+@media (max-width: 1024px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer__cards {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+  }
+  .footer__cards > div {
+    padding-bottom: 50px;
+  }
+  .footer__information {
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+}
 
 /* .footer__card-content--yellow:hover {
   margin-top: -54px;

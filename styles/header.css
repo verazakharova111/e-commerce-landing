@@ -17,3 +17,11 @@
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
   padding: 11px;
 }
+@media (max-width: 1024px) {
+  .header__nav {
+    display: none;
+  }
+  .header__input {
+    display: none;
+  }
+}

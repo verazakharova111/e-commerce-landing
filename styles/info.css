@@ -45,6 +45,23 @@
   padding-top: 30px;
 }
 
+@media (max-width: 1024px) {
+  .info__block {
+    flex-direction: column;
+  }
+  .info__block > * {
+    margin-bottom: 20px;
+  }
+  .info__reviews {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .info__reviews > div {
+    padding-bottom: 20px;
+  }
+}
+
 @media (min-width: 1280px) {
   .info {
     flex-basis: 40%;

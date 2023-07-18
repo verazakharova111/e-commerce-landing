@@ -57,6 +57,19 @@
   margin-top: 60px;
   margin-right: -12px;
 }
+@media (max-width: 1024px) {
+  .main {
+    display: block;
+  }
+  .main__figure-left {
+    display: none;
+  }
+  .main__women {
+    width: 324px;
+    position: initial;
+    transform: translateX(0);
+  }
+}
 @media (min-width: 1280px) {
   .main__figure-right {
     display: block;
